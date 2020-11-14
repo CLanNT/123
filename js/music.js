@@ -13,7 +13,7 @@ bodyBgs[8] = "http://music.163.com/song/media/outer/url?id=28219108.mp3";
 bodyBgs[9] = "http://music.163.com/song/media/outer/url?id=33991740.mp3";
 bodyBgs[10] = "http://music.163.com/song/media/outer/url?id=477215244.mp3";
 bodyBgs[11] = "http://music.163.com/song/media/outer/url?id=1381562766.mp3";
-var randomBgIndex = Math.round( Math.random() * 11 ); document.write('<audio src=\''+bodyBgs[randomBgIndex]+ '\'autoplay=\'autoplay\'></audio>');
+var randomBgIndex = Math.round( Math.random() * 11 ); document.write('<audio src=\''+bodyBgs[randomBgIndex]+ '\'autoplay=\'autoplay\'' + 'loop=\'loop \'></audio>');
 //]]>
 
 
